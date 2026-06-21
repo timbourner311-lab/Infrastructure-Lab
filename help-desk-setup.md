@@ -6,3 +6,6 @@ Lessons Learned:
 
 ### System Hardening & Access Control.
 To ensure the security of the osTicket environment, I implemented principle-of-least-privilege access by creating dedicated staff accounts with restricted roles, rather than using the primary administrator account for daily tasks. Additionally, I enforced strong password complexity requirements for all user logins to prevent unauthorized access to the help desk infrastructure.
+
+### System Backup & Recovery.
+Regularly backing up the MySQL database and critical web directories
